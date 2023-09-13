@@ -1,8 +1,8 @@
 {
-  "name": "cubex_artistry_cascade",
+  "name": "artistry-cascade",
   "version": "0.6.6",
   "description": "A powerful component library for Cascade",
-  "repository": "https://github.com/zill4/cubex_artistry_cascade.git",
+  "repository": "https://github.com/zill4/artistry-cascade.git",
   "license": "MIT",
   "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
   "main": "dist/scripts/modules/ArtistryCascade.js",
@@ -21,23 +21,21 @@
     "open": "opn src/tests/demo/html/index.html"
   },
   "dependencies": {
-    "cubex_artistry_icons": "https://github.com/zill4/cubex_artistry_icons#main",
-    "cubex_cascade_diff": "https://github.com/zill4/cubex_cascade_diff#main",
-    "cubex_cascade_promise_util": "https://github.com/zill4/cubex_cascade_promise_util#main"
+    "artistry-icons": "https://github.com/zill4/artistry-icons#main",
+    "cascade-diff": "https://github.com/zill4/cascade-diff#main",
+    "cascade-promise-util": "https://github.com/zill4/cascade-promise-util#main"
   },
   "peerDependencies": {
-    "cubex_artistry": "https://github.com/zill4/cubex_artistry#main",
-    "cubex_cascade": "https://github.com/zill4/cubex_cascade#main"
+    "artistry": "https://github.com/zill4/artistry#main",
+    "cascade": "https://github.com/zill4/cascade#main"
   },
   "devDependencies": {
     "@fortawesome/free-solid-svg-icons": "5.7.2",
-    "@types/chai": "4.2.3",
     "@types/mocha": "5.2.7",
-    "cubex_artistry": "https://github.com/zill4/cubex_artistry#main",
+    "artistry": "https://github.com/zill4/artistry#main",
     "autoprefixer": "9.7.4",
-    "cubex_cascade": "https://github.com/zill4/cubex_cascade#main",
-    "cubex_cascade_validation": "https://github.com/zill4/cubex_cascade_validation#main",
-    "chai": "4.2.0",
+    "cascade": "https://github.com/zill4/cascade#main",
+    "cascade-validation": "https://github.com/zill4/cascade-validation#main",
     "css-loader": "3.4.2",
     "jsdom": "11.11.0",
     "mini-css-extract-plugin": "0.9.0",
