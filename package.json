@@ -35,7 +35,6 @@
     "artistry": "https://github.com/zill4/artistry#main",
     "autoprefixer": "9.7.4",
     "cascade": "https://github.com/zill4/cascade#main",
-    "cascade-validation": "https://github.com/zill4/cascade-validation#main",
     "css-loader": "3.4.2",
     "jsdom": "11.11.0",
     "mini-css-extract-plugin": "0.9.0",
