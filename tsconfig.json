@@ -15,7 +15,6 @@
     "noLib": false,
     "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true,
-    "ignoreDeprecations": "5.0",
     "outDir": "dist",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
