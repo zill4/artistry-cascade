@@ -33,12 +33,12 @@ class Card extends cascade_1.Component {
             classNames.push('card-square');
         }
         if (grid) {
-            Grid_1.gridConfig(innerClassNames, this.props);
+            (0, Grid_1.gridConfig)(innerClassNames, this.props);
         }
         if (clickable) {
             classNames.push('clickable');
         }
-        Disabled_1.disabledClass(disabled, classNames);
+        (0, Disabled_1.disabledClass)(disabled, classNames);
         return (cascade_1.default.createElement("div", { className: classNames.join(' '), id: id, onclick: this.onClick },
             header ? cascade_1.default.createElement("header", null, header) : null,
             cascade_1.default.createElement("div", { className: innerClassNames.join(' ') }, this.children),

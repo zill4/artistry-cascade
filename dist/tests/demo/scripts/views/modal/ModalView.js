@@ -53,6 +53,7 @@ class ModalView extends cascade_1.Component {
                     cascade_1.default.createElement("div", null, "inner test")))));
     }
 }
+exports.default = ModalView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -65,5 +66,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], ModalView.prototype, "innerModalOpen", void 0);
-exports.default = ModalView;
 //# sourceMappingURL=ModalView.js.map

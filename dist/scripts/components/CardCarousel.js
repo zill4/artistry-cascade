@@ -105,6 +105,7 @@ class CardCarousel extends cascade_1.Component {
             undefined));
     }
 }
+exports.default = CardCarousel;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -113,5 +114,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], CardCarousel.prototype, "slideSize", void 0);
-exports.default = CardCarousel;
 //# sourceMappingURL=CardCarousel.js.map

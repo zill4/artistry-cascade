@@ -34,9 +34,9 @@ class VerticalCard extends cascade_1.Component {
                         cascade_1.default.createElement(ArtistryCascade_1.Cell, null, "Card Content"))))));
     }
 }
+exports.default = VerticalCard;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Object)
 ], VerticalCard.prototype, "closed", void 0);
-exports.default = VerticalCard;
 //# sourceMappingURL=VerticalCard.js.map

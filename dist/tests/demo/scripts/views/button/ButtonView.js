@@ -106,6 +106,7 @@ class ButtonView extends cascade_1.Component {
                     cascade_1.default.createElement(ArtistryCascade_1.Button, { display: "underline" }, "Home")))));
     }
 }
+exports.default = ButtonView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -114,5 +115,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], ButtonView.prototype, "popoverOpen", void 0);
-exports.default = ButtonView;
 //# sourceMappingURL=ButtonView.js.map

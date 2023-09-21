@@ -11,16 +11,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const cascade_1 = require("cascade");
 class User {
+    get fullName() {
+        return this.firstName + ' ' + this.lastName;
+    }
     constructor(firstName, lastName) {
         this.firstName = '';
         this.lastName = '';
         this.firstName = firstName;
         this.lastName = lastName;
     }
-    get fullName() {
-        return this.firstName + ' ' + this.lastName;
-    }
 }
+exports.default = User;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", String)
@@ -34,5 +35,4 @@ __decorate([
     __metadata("design:type", Object),
     __metadata("design:paramtypes", [])
 ], User.prototype, "fullName", null);
-exports.default = User;
 //# sourceMappingURL=User.js.map

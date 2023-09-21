@@ -7,7 +7,7 @@ var UnitValid;
     UnitValid[UnitValid["valid"] = 1] = "valid";
     UnitValid[UnitValid["invalid"] = 0] = "invalid";
     UnitValid[UnitValid["incomplete"] = -1] = "incomplete";
-})(UnitValid = exports.UnitValid || (exports.UnitValid = {}));
+})(UnitValid || (exports.UnitValid = UnitValid = {}));
 class MaskUnit {
     constructor(type, definition) {
         this.type = type;
@@ -371,7 +371,7 @@ var ValidCharacter;
     ValidCharacter["number"] = "9";
     ValidCharacter["alphanumeric"] = "n";
     ValidCharacter["hexadecimal"] = "0";
-})(ValidCharacter = exports.ValidCharacter || (exports.ValidCharacter = {}));
+})(ValidCharacter || (exports.ValidCharacter = ValidCharacter = {}));
 var KeyboardMovement;
 (function (KeyboardMovement) {
     KeyboardMovement[KeyboardMovement["none"] = 0] = "none";
@@ -379,7 +379,7 @@ var KeyboardMovement;
     KeyboardMovement[KeyboardMovement["end"] = 2] = "end";
     KeyboardMovement[KeyboardMovement["left"] = 3] = "left";
     KeyboardMovement[KeyboardMovement["right"] = 4] = "right";
-})(KeyboardMovement = exports.KeyboardMovement || (exports.KeyboardMovement = {}));
+})(KeyboardMovement || (exports.KeyboardMovement = KeyboardMovement = {}));
 function compareChars(maskChar, valueChar) {
     switch (maskChar) {
         case '9':

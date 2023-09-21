@@ -106,6 +106,7 @@ class FormView extends cascade_1.Component {
                     cascade_1.default.createElement(ArtistryCascade_1.Button, { theme: "primary" }, "Save")))));
     }
 }
+exports.default = FormView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Date)
@@ -118,5 +119,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Object)
 ], FormView.prototype, "selectValue", void 0);
-exports.default = FormView;
 //# sourceMappingURL=FormView.js.map

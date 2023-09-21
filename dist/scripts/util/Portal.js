@@ -20,6 +20,6 @@ class Portal {
         return this.elements[name];
     }
 }
-exports.default = Portal;
 Portal.elements = {};
+exports.default = Portal;
 //# sourceMappingURL=Portal.js.map

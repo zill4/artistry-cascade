@@ -72,11 +72,11 @@ class ActionBarBreadcrumb extends cascade_1.Component {
             undefined));
     }
 }
+exports.default = ActionBarBreadcrumb;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", IntersectionObserver)
 ], ActionBarBreadcrumb.prototype, "observer", void 0);
-exports.default = ActionBarBreadcrumb;
 class ActionBarItem extends cascade_1.Component {
     constructor() {
         super(...arguments);
@@ -95,9 +95,9 @@ class ActionBarItem extends cascade_1.Component {
         return (cascade_1.default.createElement("div", { ref: this.ref }, this.children));
     }
 }
+exports.ActionBarItem = ActionBarItem;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], ActionBarItem.prototype, "hidden", void 0);
-exports.ActionBarItem = ActionBarItem;
 //# sourceMappingURL=ActionBarBreadcrumb.js.map

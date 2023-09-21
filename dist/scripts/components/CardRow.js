@@ -8,7 +8,7 @@ class CardRow extends cascade_1.Component {
         let { id, className, align } = this.props;
         let classNames = new ClassNames_1.default(className, 'card-row');
         if (align) {
-            Align_1.alignClass(align, classNames);
+            (0, Align_1.alignClass)(align, classNames);
         }
         return (cascade_1.default.createElement("div", { className: classNames.toString(), id: id }, this.children));
     }

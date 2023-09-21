@@ -37,9 +37,9 @@ class PagerView extends cascade_1.Component {
             cascade_1.default.createElement(ArtistryCascade_1.Pager, { count: 20, index: this.index, showCount: 7, showArrows: true, showEnds: true, onClickIndex: this.onClickIndex, onClickEnd: this.onClickEnd })));
     }
 }
+exports.default = PagerView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], PagerView.prototype, "index", void 0);
-exports.default = PagerView;
 //# sourceMappingURL=PagerView.js.map

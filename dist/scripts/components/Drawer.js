@@ -57,7 +57,7 @@ class Drawer extends cascade_1.Component {
             if (this.props.open) {
                 this.remove = false;
                 BodyScroll_1.default.lock(true);
-                await PromiseUtil_1.waitAnimation();
+                await (0, PromiseUtil_1.waitAnimation)();
                 this.open = this.props.open;
                 DepthStack_1.default.push(this.close);
             }
@@ -94,7 +94,7 @@ class Drawer extends cascade_1.Component {
         }
         let innerClassNames = ['drawer-content'];
         if (this.props.grid) {
-            Grid_1.gridConfig(innerClassNames, this.props);
+            (0, Grid_1.gridConfig)(innerClassNames, this.props);
         }
         return (cascade_1.default.createElement(cascade_1.Portal, { element: Portal_1.default.getElement('layer-overlay'), remove: this.remove },
             cascade_1.default.createElement("div", { className: classNames.join(' '), id: id, ref: this.rootRef },
@@ -103,6 +103,7 @@ class Drawer extends cascade_1.Component {
                         cascade_1.default.createElement("div", { className: innerClassNames.join(' '), onclick: this.preventClick }, this.children))))));
     }
 }
+exports.default = Drawer;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -111,5 +112,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], Drawer.prototype, "remove", void 0);
-exports.default = Drawer;
 //# sourceMappingURL=Drawer.js.map

@@ -21,7 +21,7 @@ var RoundingType;
     RoundingType[RoundingType["Round"] = 1] = "Round";
     RoundingType[RoundingType["Floor"] = 2] = "Floor";
     RoundingType[RoundingType["Ceiling"] = 3] = "Ceiling";
-})(RoundingType = exports.RoundingType || (exports.RoundingType = {}));
+})(RoundingType || (exports.RoundingType = RoundingType = {}));
 class AmountInput extends cascade_1.Component {
     constructor(props) {
         super(props);
@@ -138,11 +138,11 @@ class AmountInput extends cascade_1.Component {
                 " ") : null));
     }
 }
+exports.default = AmountInput;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], AmountInput.prototype, "value", void 0);
-exports.default = AmountInput;
 function cleanValue(value, round = 0, nonZero = false, nonNegative = false) {
     let cleanedValue = parseFloat(value);
     if (isNaN(cleanedValue)) {

@@ -85,7 +85,7 @@ class Carousel extends cascade_1.Component {
             this.previousActiveIndex = previousActiveIndex;
             this.selected = false;
             await cascade_1.default.track(this, 'selected');
-            await PromiseUtil_1.waitAnimation(1);
+            await (0, PromiseUtil_1.waitAnimation)(1);
             if (runCount !== this.runCount) {
                 return;
             }
@@ -183,6 +183,7 @@ class Carousel extends cascade_1.Component {
         return (cascade_1.default.createElement("div", { className: classNames.join(' '), id: this.props.id, style: { height: this.height }, "data-scroll": this.props.scroll }, children));
     }
 }
+exports.default = Carousel;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", String)
@@ -203,5 +204,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], Carousel.prototype, "selected", void 0);
-exports.default = Carousel;
 //# sourceMappingURL=Carousel.js.map

@@ -61,6 +61,6 @@ class DepthStack {
         }
     }
 }
-exports.default = DepthStack;
 DepthStack.items = [];
+exports.default = DepthStack;
 //# sourceMappingURL=DepthStack.js.map

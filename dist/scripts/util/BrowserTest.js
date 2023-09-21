@@ -8,7 +8,7 @@ var Browser;
     Browser["iOS"] = "iOS";
     Browser["Opera"] = "Opera";
     Browser["Windows"] = "Windows";
-})(Browser = exports.Browser || (exports.Browser = {}));
+})(Browser || (exports.Browser = Browser = {}));
 class BrowserRegex {
 }
 exports.BrowserRegex = BrowserRegex;
@@ -22,10 +22,10 @@ class BrowserTest {
         return navigator.userAgent.match(regex);
     }
 }
-exports.default = BrowserTest;
 BrowserTest.Android = BrowserTest.testRegex(BrowserRegex.Android);
 BrowserTest.BlackBerry = BrowserTest.testRegex(BrowserRegex.BlackBerry);
 BrowserTest.iOS = BrowserTest.testRegex(BrowserRegex.iOS);
 BrowserTest.Opera = BrowserTest.testRegex(BrowserRegex.Opera);
 BrowserTest.Windows = BrowserTest.testRegex(BrowserRegex.Windows);
+exports.default = BrowserTest;
 //# sourceMappingURL=BrowserTest.js.map

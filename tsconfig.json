@@ -16,6 +16,7 @@
     "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "dist",
+    "ignoreDeprecations": "5.0",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "lib": [

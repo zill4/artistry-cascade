@@ -25,9 +25,9 @@ class Draggable extends cascade_1.Component {
         return (cascade_1.default.createElement("div", { draggable: true, ondrag: this.onDrag, ondragend: this.onDragEnd }, this.props.item));
     }
 }
+exports.default = Draggable;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], Draggable.prototype, "dragging", void 0);
-exports.default = Draggable;
 //# sourceMappingURL=Draggable.js.map

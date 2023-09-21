@@ -206,6 +206,7 @@ class Search extends cascade_1.Component {
                 })))));
     }
 }
+exports.default = Search;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
@@ -218,5 +219,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Array)
 ], Search.prototype, "options", void 0);
-exports.default = Search;
 //# sourceMappingURL=Search.js.map

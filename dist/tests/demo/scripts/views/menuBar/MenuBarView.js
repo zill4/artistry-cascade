@@ -32,9 +32,9 @@ class MenuBarView extends cascade_1.Component {
             cascade_1.default.createElement(ArtistryCascade_1.MenuBarLink, { title: cascade_1.default.createElement(ArtistryCascade_1.UserThumbnail, { src: "", placeholder: "C", size: "small", onclick: this.toggleUserMenu, popover: "Logout", popoverDirection: "bottom", popoverAlign: "right", popoverMenu: true, popoverOpen: this.userMenuOpen, menuBarTop: true, onPopoverClose: this.closeUserMenu }) })));
     }
 }
+exports.default = MenuBarView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], MenuBarView.prototype, "userMenuOpen", void 0);
-exports.default = MenuBarView;
 //# sourceMappingURL=MenuBarView.js.map

@@ -24,9 +24,9 @@ class CalendarView extends cascade_1.Component {
                     } }))));
     }
 }
+exports.default = CalendarView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Date)
 ], CalendarView.prototype, "date", void 0);
-exports.default = CalendarView;
 //# sourceMappingURL=CalendarView.js.map

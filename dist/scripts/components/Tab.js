@@ -50,9 +50,9 @@ class Tab extends cascade_1.Component {
                 }) : undefined)));
     }
 }
+exports.default = Tab;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], Tab.prototype, "activeIndex", void 0);
-exports.default = Tab;
 //# sourceMappingURL=Tab.js.map

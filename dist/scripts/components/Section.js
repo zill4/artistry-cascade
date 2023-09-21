@@ -140,7 +140,7 @@ class Section extends cascade_1.Component {
             innerClassNames.push('section-content-relative');
         }
         if (grid) {
-            Grid_1.gridConfig(innerClassNames, this.props);
+            (0, Grid_1.gridConfig)(innerClassNames, this.props);
         }
         return (cascade_1.default.createElement("section", Object.assign({ className: classNames.join(' '), id: id, style: {
                 height: this.height
@@ -156,6 +156,7 @@ class Section extends cascade_1.Component {
                 undefined));
     }
 }
+exports.default = Section;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -172,5 +173,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", String)
 ], Section.prototype, "height", void 0);
-exports.default = Section;
 //# sourceMappingURL=Section.js.map

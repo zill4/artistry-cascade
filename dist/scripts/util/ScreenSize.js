@@ -48,6 +48,7 @@ class WindowState {
         return parseFloat(window.getComputedStyle(document.documentElement).getPropertyValue(variableName));
     }
 }
+exports.default = WindowState;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
@@ -61,7 +62,6 @@ __decorate([
     __metadata("design:type", Number),
     __metadata("design:paramtypes", [])
 ], WindowState.prototype, "screenSize", null);
-exports.default = WindowState;
 var ScreenSize;
 (function (ScreenSize) {
     ScreenSize[ScreenSize["XSmall"] = 0] = "XSmall";
@@ -69,5 +69,5 @@ var ScreenSize;
     ScreenSize[ScreenSize["Medium"] = WindowState.getSize('--size-md')] = "Medium";
     ScreenSize[ScreenSize["Large"] = WindowState.getSize('--size-lg')] = "Large";
     ScreenSize[ScreenSize["XLarge"] = WindowState.getSize('--size-xl')] = "XLarge";
-})(ScreenSize = exports.ScreenSize || (exports.ScreenSize = {}));
+})(ScreenSize || (exports.ScreenSize = ScreenSize = {}));
 //# sourceMappingURL=ScreenSize.js.map

@@ -95,6 +95,7 @@ class CardView extends cascade_1.Component {
                 cascade_1.default.createElement(ArtistryCascade_1.Button, { onclick: this.clickNext }, ">"))));
     }
 }
+exports.default = CardView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -107,5 +108,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], CardView.prototype, "index", void 0);
-exports.default = CardView;
 //# sourceMappingURL=CardView.js.map

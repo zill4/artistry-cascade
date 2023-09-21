@@ -63,8 +63,8 @@ class BodyScroll {
         });
     }
 }
-exports.default = BodyScroll;
 BodyScroll.lockStack = [];
 BodyScroll.rootSelector = '.layer-root';
 BodyScroll.bodyLockClass = 'body-scroll';
+exports.default = BodyScroll;
 //# sourceMappingURL=BodyScroll.js.map

@@ -30,6 +30,7 @@ class ViewModel {
         this.users.splice(this.users.indexOf(user), 1);
     }
 }
+exports.default = ViewModel;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -50,5 +51,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", HTMLElement)
 ], ViewModel.prototype, "firstNameInput", void 0);
-exports.default = ViewModel;
 //# sourceMappingURL=ViewModel.js.map

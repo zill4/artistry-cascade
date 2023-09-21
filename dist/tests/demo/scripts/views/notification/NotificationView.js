@@ -77,9 +77,9 @@ class NotificationView extends cascade_1.Component {
     }
 }
 NotificationView.currentKey = 0;
+exports.default = NotificationView;
 __decorate([
     cascade_1.hash,
     __metadata("design:type", Object)
 ], NotificationView.prototype, "items", void 0);
-exports.default = NotificationView;
 //# sourceMappingURL=NotificationView.js.map

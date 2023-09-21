@@ -37,9 +37,9 @@ class DrawerView extends cascade_1.Component {
                         cascade_1.default.createElement(ArtistryCascade_1.Button, { theme: "primary" }, "OK"))))));
     }
 }
+exports.default = DrawerView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], DrawerView.prototype, "drawerOpen", void 0);
-exports.default = DrawerView;
 //# sourceMappingURL=DrawerView.js.map

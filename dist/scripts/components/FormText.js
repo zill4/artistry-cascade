@@ -12,7 +12,7 @@ class FormText extends cascade_1.Component {
             classNames.add('fill');
         }
         if (align) {
-            Align_1.alignClass(align, classNames);
+            (0, Align_1.alignClass)(align, classNames);
         }
         let _theme;
         switch (theme) {

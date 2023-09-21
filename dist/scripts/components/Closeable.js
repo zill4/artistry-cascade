@@ -101,6 +101,7 @@ class Closeable extends cascade_1.Component {
         return (cascade_1.default.createElement("div", { className: classNames.join(' '), id: id, "data-closed": this.closed, "data-running": this.running, style: { height: this.height } }, this.children));
     }
 }
+exports.default = Closeable;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -117,5 +118,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", String)
 ], Closeable.prototype, "height", void 0);
-exports.default = Closeable;
 //# sourceMappingURL=Closeable.js.map

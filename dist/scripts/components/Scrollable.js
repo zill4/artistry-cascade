@@ -13,7 +13,7 @@ var ScrollableTypeEnum;
     ScrollableTypeEnum["yAlways"] = "y-always";
     ScrollableTypeEnum["xNever"] = "x-never";
     ScrollableTypeEnum["yNever"] = "y-never";
-})(ScrollableTypeEnum = exports.ScrollableTypeEnum || (exports.ScrollableTypeEnum = {}));
+})(ScrollableTypeEnum || (exports.ScrollableTypeEnum = ScrollableTypeEnum = {}));
 class Scrollable extends cascade_1.Component {
     constructor() {
         super(...arguments);

@@ -12,5 +12,5 @@ var Animation;
     Animation["FadeRight"] = "fade-right";
     Animation["FadeBottom"] = "fade-bottom";
     Animation["FadeLeft"] = "fade-left";
-})(Animation = exports.Animation || (exports.Animation = {}));
+})(Animation || (exports.Animation = Animation = {}));
 //# sourceMappingURL=Animatable.js.map

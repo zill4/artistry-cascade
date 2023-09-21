@@ -49,7 +49,7 @@ class TableView extends cascade_1.Component {
         this.options = [];
         this.onChange = async (event) => {
             this.searchValue = event.target.value;
-            await PromiseUtil_1.wait(1000);
+            await (0, PromiseUtil_1.wait)(1000);
             this.showOptions = true;
             this.options = data;
         };
@@ -80,6 +80,7 @@ class TableView extends cascade_1.Component {
             cascade_1.default.createElement(ArtistryCascade_1.List, { data: this.options, template: item => item.ingredient, active: 3, selected: [1, 3, 5], space: true })));
     }
 }
+exports.default = TableView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", String)
@@ -92,5 +93,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Array)
 ], TableView.prototype, "options", void 0);
-exports.default = TableView;
 //# sourceMappingURL=ListView.js.map

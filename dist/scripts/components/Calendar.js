@@ -156,6 +156,7 @@ class Calendar extends cascade_1.Component {
                 })))));
     }
 }
+exports.default = Calendar;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
@@ -168,7 +169,6 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Date)
 ], Calendar.prototype, "date", void 0);
-exports.default = Calendar;
 function compareDays(selectedDate, date) {
     if (selectedDate &&
         selectedDate.year === date.getFullYear() &&

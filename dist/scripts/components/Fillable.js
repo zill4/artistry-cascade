@@ -126,6 +126,7 @@ class Fillable extends cascade_1.Component {
                 } }, this.children)));
     }
 }
+exports.default = Fillable;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -162,5 +163,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], Fillable.prototype, "running", void 0);
-exports.default = Fillable;
 //# sourceMappingURL=Fillable.js.map

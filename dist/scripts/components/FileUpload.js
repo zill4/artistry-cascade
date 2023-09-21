@@ -60,6 +60,7 @@ class FileUpload extends cascade_1.Component {
             text || 'Click or Drag and Drop to upload'));
     }
 }
+exports.default = FileUpload;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -68,5 +69,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], FileUpload.prototype, "uploading", void 0);
-exports.default = FileUpload;
 //# sourceMappingURL=FileUpload.js.map

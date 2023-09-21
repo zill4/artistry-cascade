@@ -21,7 +21,7 @@ class Notification extends cascade_1.Component {
             if (this.props.decay) {
                 this.decayCounter++;
                 let decayCounter = this.decayCounter;
-                await PromiseUtil_1.wait(this.props.decay);
+                await (0, PromiseUtil_1.wait)(this.props.decay);
                 if (decayCounter === this.decayCounter) {
                     this.hide = true;
                 }
@@ -72,9 +72,9 @@ class Notification extends cascade_1.Component {
             cascade_1.default.createElement("div", { className: "notification-content" }, this.children)));
     }
 }
+exports.default = Notification;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Object)
 ], Notification.prototype, "hide", void 0);
-exports.default = Notification;
 //# sourceMappingURL=Notification.js.map

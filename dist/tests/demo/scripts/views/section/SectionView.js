@@ -33,6 +33,7 @@ class SectionView extends cascade_1.Component {
             cascade_1.default.createElement(ArtistryCascade_1.Button, { onclick: this.lockContents }, "Lock")));
     }
 }
+exports.default = SectionView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -41,5 +42,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], SectionView.prototype, "closed", void 0);
-exports.default = SectionView;
 //# sourceMappingURL=SectionView.js.map

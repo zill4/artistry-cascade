@@ -55,9 +55,9 @@ class CarouselView extends cascade_1.Component {
                     " Line 3"))));
     }
 }
+exports.default = CarouselView;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Number)
 ], CarouselView.prototype, "activeIndex", void 0);
-exports.default = CarouselView;
 //# sourceMappingURL=CarouselView.js.map

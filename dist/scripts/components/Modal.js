@@ -69,7 +69,7 @@ class Modal extends cascade_1.Component {
                 DepthStack_1.default.blur();
                 this.remove = false;
                 BodyScroll_1.default.lock(true);
-                await PromiseUtil_1.waitAnimation();
+                await (0, PromiseUtil_1.waitAnimation)();
                 this.open = this.props.open;
                 DepthStack_1.default.push(this.close, this.confirm);
             }
@@ -140,7 +140,7 @@ class Modal extends cascade_1.Component {
             }
         }
         if (this.props.grid) {
-            Grid_1.gridConfig(modalContentClassNames, this.props);
+            (0, Grid_1.gridConfig)(modalContentClassNames, this.props);
         }
         let headerSection;
         if (title || header || closeable) {
@@ -164,6 +164,7 @@ class Modal extends cascade_1.Component {
                     cascade_1.default.createElement("div", { className: 'modal-content ' + modalContentClassNames.join(' '), onclick: this.preventClick }, this.children)))));
     }
 }
+exports.default = Modal;
 __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
@@ -172,5 +173,4 @@ __decorate([
     cascade_1.observable,
     __metadata("design:type", Boolean)
 ], Modal.prototype, "remove", void 0);
-exports.default = Modal;
 //# sourceMappingURL=Modal.js.map
