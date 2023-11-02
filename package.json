@@ -9,7 +9,7 @@
   "typings": "dist/scripts/modules/ArtistryCascade.d.ts",
   "scripts": {
     "start": "node ./dist/main.js",
-    "build": "tsc",
+    "build": "tsc --declaration",
     "clean": "rimraf ./dist",
     "prepublishOnly": "rimraf ./dist && tsc --declaration",
     "test": "tsc && node src/mocha/NodeRunner.js",
